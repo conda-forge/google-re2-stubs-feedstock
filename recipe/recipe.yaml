@@ -13,7 +13,7 @@ source:
   sha256: f5ebef2f4188957bf980a5ad88ab266589638e5090329e6a0fde99f6bb684657
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -41,5 +41,6 @@ about:
   license_file: LICENSE
 
 extra:
+  feedstock-name: google-re2-stubs
   recipe-maintainers:
     - JaRoSchm
